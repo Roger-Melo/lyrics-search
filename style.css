@@ -79,7 +79,7 @@ form button {
   position: absolute;
   top: 2px;
   right: 2px;
-  background-color: #e056fd;
+  background-color: #8d56fd;
   border: 0;
   border-radius: 50px;
   color: #fff;
@@ -87,7 +87,7 @@ form button {
   padding: 13px 30px;
 }
 
-.btn-get-lyrics {
+.btn {
   background-color: #8d56fd;
   border: 0;
   border-radius: 10px;
@@ -95,7 +95,7 @@ form button {
   padding: 4px 10px;
 }
 
-.lyrics-container {
+.songs-container {
   list-style-type: none;
   padding: 0;
   margin: 30px auto;
@@ -111,16 +111,16 @@ form button {
   margin: 10px 0;
 }
 
-.container h2 {
+.prev-and-next-container h2 {
   font-weight: 300;
 }
 
-.centered {
+.prev-and-next-container {
   display: flex;
   justify-content: center;
 }
 
-.centered button {
+.prev-and-next-container button {
   transform: scale(1.3);
   margin: 15px;
 }
@@ -134,4 +134,14 @@ form button {
   color: white;
   opacity: .4;
   max-width: 400px;
+}
+
+.lyrics-container {
+  color: white;
+  opacity: .4;
+}
+
+.lyrics {
+  margin-top: 20px;
+  line-height: 1.5;
 }
